@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB1256731769612D00733F44 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB1256721769612D00733F44 /* Cocoa.framework */; };
+		FB1256751769612D00733F44 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB1256741769612D00733F44 /* MacRuby.framework */; };
+		FB12567E1769612D00733F44 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FB12567C1769612D00733F44 /* InfoPlist.strings */; };
+		FB1256801769612D00733F44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB12567F1769612D00733F44 /* main.m */; };
+		FB1256851769612D00733F44 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB1256831769612D00733F44 /* MainMenu.xib */; };
+		FB1256881769612D00733F44 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = FB1256871769612D00733F44 /* rb_main.rb */; };
+		FB12568A1769612D00733F44 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = FB1256891769612D00733F44 /* AppDelegate.rb */; };
+		FB12568D1769612D00733F44 /* hack.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FB12568B1769612D00733F44 /* hack.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB1256771769612D00733F44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB1256671769612D00733F44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB12566E1769612D00733F44;
+			remoteInfo = hack;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB12566F1769612D00733F44 /* hack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB1256721769612D00733F44 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		FB1256741769612D00733F44 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = DEVELOPER_DIR; };
+		FB12567B1769612D00733F44 /* hack-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "hack-Info.plist"; sourceTree = "<group>"; };
+		FB12567D1769612D00733F44 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FB12567F1769612D00733F44 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FB1256811769612D00733F44 /* hack-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "hack-Prefix.pch"; sourceTree = "<group>"; };
+		FB1256841769612D00733F44 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		FB1256871769612D00733F44 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		FB1256891769612D00733F44 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+		FB12568C1769612D00733F44 /* hack.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = hack.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB12566C1769612D00733F44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB1256731769612D00733F44 /* Cocoa.framework in Frameworks */,
+				FB1256751769612D00733F44 /* MacRuby.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB1256661769612D00733F44 = {
+			isa = PBXGroup;
+			children = (
+				FB1256791769612D00733F44 /* hack */,
+				FB1256711769612D00733F44 /* Frameworks */,
+				FB1256701769612D00733F44 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB1256701769612D00733F44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB12566F1769612D00733F44 /* hack.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB1256711769612D00733F44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB1256721769612D00733F44 /* Cocoa.framework */,
+				FB1256741769612D00733F44 /* MacRuby.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB1256791769612D00733F44 /* hack */ = {
+			isa = PBXGroup;
+			children = (
+				FB1256891769612D00733F44 /* AppDelegate.rb */,
+				FB12568B1769612D00733F44 /* hack.xcdatamodeld */,
+				FB1256821769612D00733F44 /* Resources */,
+				FB1256861769612D00733F44 /* Other Sources */,
+				FB12567A1769612D00733F44 /* Supporting Files */,
+			);
+			path = hack;
+			sourceTree = "<group>";
+		};
+		FB12567A1769612D00733F44 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB12567B1769612D00733F44 /* hack-Info.plist */,
+				FB12567C1769612D00733F44 /* InfoPlist.strings */,
+				FB12567F1769612D00733F44 /* main.m */,
+				FB1256811769612D00733F44 /* hack-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FB1256821769612D00733F44 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FB1256831769612D00733F44 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		FB1256861769612D00733F44 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				FB1256871769612D00733F44 /* rb_main.rb */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		FB1256761769612D00733F44 /* Deployment */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "--compile --embed";
+			buildConfigurationList = FB1256931769612D00733F44 /* Build configuration list for PBXLegacyTarget "Deployment" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/macruby_deploy;
+			dependencies = (
+				FB1256781769612D00733F44 /* PBXTargetDependency */,
+			);
+			name = Deployment;
+			passBuildSettingsInEnvironment = 1;
+			productName = Deployment;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		FB12566E1769612D00733F44 /* hack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB1256901769612D00733F44 /* Build configuration list for PBXNativeTarget "hack" */;
+			buildPhases = (
+				FB12566B1769612D00733F44 /* Sources */,
+				FB12566C1769612D00733F44 /* Frameworks */,
+				FB12566D1769612D00733F44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hack;
+			productName = hack;
+			productReference = FB12566F1769612D00733F44 /* hack.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB1256671769612D00733F44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Elyse Wise";
+			};
+			buildConfigurationList = FB12566A1769612D00733F44 /* Build configuration list for PBXProject "hack" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FB1256661769612D00733F44;
+			productRefGroup = FB1256701769612D00733F44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB12566E1769612D00733F44 /* hack */,
+				FB1256761769612D00733F44 /* Deployment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB12566D1769612D00733F44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB12567E1769612D00733F44 /* InfoPlist.strings in Resources */,
+				FB1256851769612D00733F44 /* MainMenu.xib in Resources */,
+				FB1256881769612D00733F44 /* rb_main.rb in Resources */,
+				FB12568A1769612D00733F44 /* AppDelegate.rb in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB12566B1769612D00733F44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB1256801769612D00733F44 /* main.m in Sources */,
+				FB12568D1769612D00733F44 /* hack.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB1256781769612D00733F44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB12566E1769612D00733F44 /* hack */;
+			targetProxy = FB1256771769612D00733F44 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB12567C1769612D00733F44 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB12567D1769612D00733F44 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FB1256831769612D00733F44 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB1256841769612D00733F44 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB12568E1769612D00733F44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FB12568F1769612D00733F44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FB1256911769612D00733F44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hack/hack-Prefix.pch";
+				INFOPLIST_FILE = "hack/hack-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FB1256921769612D00733F44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hack/hack-Prefix.pch";
+				INFOPLIST_FILE = "hack/hack-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FB1256941769612D00733F44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		FB1256951769612D00733F44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB12566A1769612D00733F44 /* Build configuration list for PBXProject "hack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB12568E1769612D00733F44 /* Debug */,
+				FB12568F1769612D00733F44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB1256901769612D00733F44 /* Build configuration list for PBXNativeTarget "hack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB1256911769612D00733F44 /* Debug */,
+				FB1256921769612D00733F44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FB1256931769612D00733F44 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB1256941769612D00733F44 /* Debug */,
+				FB1256951769612D00733F44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FB12568B1769612D00733F44 /* hack.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FB12568C1769612D00733F44 /* hack.xcdatamodel */,
+			);
+			currentVersion = FB12568C1769612D00733F44 /* hack.xcdatamodel */;
+			path = hack.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FB1256671769612D00733F44 /* Project object */;
+}
