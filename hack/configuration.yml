@@ -1,0 +1,8 @@
+:server_url: http://jenkins.intersect.org.au:8080
+:notifier: mac_os
+:fetch_delay: 15
+:talk: true
+:projects: 
+ - a 
+ - DC21 
+ - AP11

@@ -15,6 +15,16 @@
 		FB1256881769612D00733F44 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = FB1256871769612D00733F44 /* rb_main.rb */; };
 		FB12568A1769612D00733F44 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = FB1256891769612D00733F44 /* AppDelegate.rb */; };
 		FB12568D1769612D00733F44 /* hack.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FB12568B1769612D00733F44 /* hack.xcdatamodeld */; };
+		FB1256971769617300733F44 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = FB1256961769617300733F44 /* star.png */; };
+		FB12569917696EA400733F44 /* jenkins-notifier.rb in Resources */ = {isa = PBXBuildFile; fileRef = FB12569817696EA400733F44 /* jenkins-notifier.rb */; };
+		FB1256A417696EAC00733F44 /* jenkins_api.rb in Resources */ = {isa = PBXBuildFile; fileRef = FB12569B17696EAC00733F44 /* jenkins_api.rb */; };
+		FB1256A517696EAC00733F44 /* jenkins_notifier.rb in Resources */ = {isa = PBXBuildFile; fileRef = FB12569C17696EAC00733F44 /* jenkins_notifier.rb */; };
+		FB1256A617696EAC00733F44 /* log.rb in Resources */ = {isa = PBXBuildFile; fileRef = FB12569D17696EAC00733F44 /* log.rb */; };
+		FB1256A717696EAC00733F44 /* console_notifier.rb in Resources */ = {isa = PBXBuildFile; fileRef = FB12569F17696EAC00733F44 /* console_notifier.rb */; };
+		FB1256A817696EAC00733F44 /* mac_os_notifier.rb in Resources */ = {isa = PBXBuildFile; fileRef = FB1256A017696EAC00733F44 /* mac_os_notifier.rb */; };
+		FB1256A917696EAC00733F44 /* memory_notifier.rb in Resources */ = {isa = PBXBuildFile; fileRef = FB1256A117696EAC00733F44 /* memory_notifier.rb */; };
+		FB1256AA17696EAC00733F44 /* notifier.rb in Resources */ = {isa = PBXBuildFile; fileRef = FB1256A217696EAC00733F44 /* notifier.rb */; };
+		FB1256AD17696EB700733F44 /* configuration.yml in Resources */ = {isa = PBXBuildFile; fileRef = FB1256AC17696EB700733F44 /* configuration.yml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +49,16 @@
 		FB1256871769612D00733F44 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
 		FB1256891769612D00733F44 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
 		FB12568C1769612D00733F44 /* hack.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = hack.xcdatamodel; sourceTree = "<group>"; };
+		FB1256961769617300733F44 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		FB12569817696EA400733F44 /* jenkins-notifier.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = "jenkins-notifier.rb"; sourceTree = "<group>"; };
+		FB12569B17696EAC00733F44 /* jenkins_api.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = jenkins_api.rb; sourceTree = "<group>"; };
+		FB12569C17696EAC00733F44 /* jenkins_notifier.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = jenkins_notifier.rb; sourceTree = "<group>"; };
+		FB12569D17696EAC00733F44 /* log.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = log.rb; sourceTree = "<group>"; };
+		FB12569F17696EAC00733F44 /* console_notifier.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = console_notifier.rb; sourceTree = "<group>"; };
+		FB1256A017696EAC00733F44 /* mac_os_notifier.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = mac_os_notifier.rb; sourceTree = "<group>"; };
+		FB1256A117696EAC00733F44 /* memory_notifier.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = memory_notifier.rb; sourceTree = "<group>"; };
+		FB1256A217696EAC00733F44 /* notifier.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = notifier.rb; sourceTree = "<group>"; };
+		FB1256AC17696EB700733F44 /* configuration.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = configuration.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +126,10 @@
 		FB1256821769612D00733F44 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				FB12569817696EA400733F44 /* jenkins-notifier.rb */,
+				FB12569A17696EAC00733F44 /* lib */,
+				FB1256AC17696EB700733F44 /* configuration.yml */,
+				FB1256961769617300733F44 /* star.png */,
 				FB1256831769612D00733F44 /* MainMenu.xib */,
 			);
 			name = Resources;
@@ -117,6 +141,28 @@
 				FB1256871769612D00733F44 /* rb_main.rb */,
 			);
 			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		FB12569A17696EAC00733F44 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				FB12569B17696EAC00733F44 /* jenkins_api.rb */,
+				FB12569C17696EAC00733F44 /* jenkins_notifier.rb */,
+				FB12569D17696EAC00733F44 /* log.rb */,
+				FB12569E17696EAC00733F44 /* notifier */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		FB12569E17696EAC00733F44 /* notifier */ = {
+			isa = PBXGroup;
+			children = (
+				FB12569F17696EAC00733F44 /* console_notifier.rb */,
+				FB1256A017696EAC00733F44 /* mac_os_notifier.rb */,
+				FB1256A117696EAC00733F44 /* memory_notifier.rb */,
+				FB1256A217696EAC00733F44 /* notifier.rb */,
+			);
+			path = notifier;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,6 +238,16 @@
 				FB1256851769612D00733F44 /* MainMenu.xib in Resources */,
 				FB1256881769612D00733F44 /* rb_main.rb in Resources */,
 				FB12568A1769612D00733F44 /* AppDelegate.rb in Resources */,
+				FB1256971769617300733F44 /* star.png in Resources */,
+				FB12569917696EA400733F44 /* jenkins-notifier.rb in Resources */,
+				FB1256A417696EAC00733F44 /* jenkins_api.rb in Resources */,
+				FB1256A517696EAC00733F44 /* jenkins_notifier.rb in Resources */,
+				FB1256A617696EAC00733F44 /* log.rb in Resources */,
+				FB1256A717696EAC00733F44 /* console_notifier.rb in Resources */,
+				FB1256A817696EAC00733F44 /* mac_os_notifier.rb in Resources */,
+				FB1256A917696EAC00733F44 /* memory_notifier.rb in Resources */,
+				FB1256AA17696EAC00733F44 /* notifier.rb in Resources */,
+				FB1256AD17696EB700733F44 /* configuration.yml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,6 +415,7 @@
 				FB1256921769612D00733F44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FB1256931769612D00733F44 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
 			isa = XCConfigurationList;
@@ -367,6 +424,7 @@
 				FB1256951769612D00733F44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

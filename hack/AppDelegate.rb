@@ -6,6 +6,7 @@
 #  Copyright 2013 Elyse Wise. All rights reserved.
 #
 
+
 class AppDelegate
     attr_accessor :window
     def applicationDidFinishLaunching(a_notification)
